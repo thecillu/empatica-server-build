@@ -23,6 +23,11 @@ The Terraform configuration uses the variable `aws_region` to indentify the targ
 
 By Default the deployment Region is `eu-central-1`.
 
+## Create the AWS CodeBuild project 
+
+Clone the project, change dir to subfolder `terraform` and run the command:
+
+`terraform apply`
 
 ## Run AWS CodeBuild project 
 
